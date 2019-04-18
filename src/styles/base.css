@@ -16,7 +16,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#canvas {
+  height: 3000px;
+  margin: 0 20%;
+  position: relative;
+  top: 30px;
+}
+
+#header {
+  background-color: #24292e;
+  border-bottom: solid 1px black;
+  height: 70px;
+}
+
+#footer {
+  height: 75px;
+  border-top: solid 2px grey;
+  position: relative;
+  top: 75px;
+  width: 980px;
+  left: 450px;
+  border: dotted grey;
+}
+
+#profile-image{
+  border: dotted 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 467px;
+  width: 245px;
+}
+
+#edit {
+  width: 229px;
+  height: 28px;
+}
+
+#navbar {
+  width: 727px;
+  height: 56px;
+  border: dotted 1px blue;
+  position: absolute;
+  left: 265px;
+  top: 0px;
+}
+
+#find-repo {
+  width: 727px;
+  height: 67px;
+  border: dotted 1px red;
+  position: absolute;
+  left: 265px;
+  top: 57px;
+}
+
+.repoName-render {
+  width: 727px;
+  height: 120px;
+  border: dotted 1px orange;
+  position: absolute;
+  left: 265px;
+  top: 120px;
 }
