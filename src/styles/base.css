@@ -17,7 +17,7 @@ body {
 }
 
 #canvas {
-  height: 3000px;
+  height: 3121px;
   margin: 0 20%;
   position: relative;
   top: 30px;
@@ -26,14 +26,26 @@ body {
 #header {
   background-color: #24292e;
   border-bottom: solid 1px black;
-  height: 70px;
+  height: 64px;
+  display: flex;
+}
+
+#header-text {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 375px;
+  top: 6px;
+  font-weight: bolder;
 }
 
 #footer {
   height: 75px;
   border-top: solid 2px grey;
   position: relative;
-  top: 75px;
+  top: 67px;
   width: 980px;
   left: 450px;
   border: dotted grey;
@@ -43,8 +55,10 @@ body {
   border: dotted 1px black;
   display: flex;
   flex-direction: column;
-  height: 467px;
-  width: 245px;
+  height: 285px;
+  width: 229px;
+  text-align: center;
+  border: solid .1px;
 }
 
 #edit {
@@ -55,26 +69,154 @@ body {
 #navbar {
   width: 727px;
   height: 56px;
-  border: dotted 1px blue;
   position: absolute;
   left: 265px;
   top: 0px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
 }
 
 #find-repo {
   width: 727px;
   height: 67px;
-  border: dotted 1px red;
   position: absolute;
   left: 265px;
   top: 57px;
+  display: flex;
+  justify-content: center;
+  border-top: .1px solid;
+}
+
+#finda {
+  width: 385px;
+  height: 34px;
+  font-size: 14px;
+  margin-right: 26px;
+}
+
+#type-bttn {
+  height: 34px;
+  width: 95px;
+  margin-right: 6px;
+}
+
+#language-bttn {
+  width: 127px;
+  height: 34px;
+  margin-right: 17px;
+}
+
+#new {
+  height: 34px;
+  width: 71px;
+}
+
+#center-me {
+  height: 34px;
+  margin-top: 13px;
 }
 
 .repoName-render {
   width: 727px;
-  height: 120px;
-  border: dotted 1px orange;
   position: absolute;
   left: 265px;
   top: 120px;
+}
+
+.repos {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  height: 120px;
+  width: 727px;
+}
+
+#github-icon {
+  height: 50px;
+  width: 50px;
+  color: white;
+  position: relative;
+  left: 13px;
+  top: 5px;
+}
+
+#search-repo {
+  position: relative;
+  left: 200px;
+  width: 300px;
+  height: 28px;
+  background-color: rgb(60, 63, 67);
+  border-color: rgb(60, 63, 67);
+  opacity: 12.5%;
+  border-radius: 3px;
+  left: 27px;
+  top: 14px;
+  outline: none;
+  color: rgb(139, 141, 143);
+  font-size: 14px;
+}
+
+::placeholder {
+  color: rgb(139, 141, 143);
+  font-size: 14px;
+}
+
+#slash {
+  background-color: rgb(60, 63, 67);
+  border-color: rgb(92, 95, 98);
+  color: rgb(131, 134, 136);
+  height: 20px;
+  width: 19px;
+  position: absolute;
+  left: 350px;
+  top: 19px;
+  z-index: 1;
+  outline: none;
+}
+
+.header-text {
+  color: white;
+  font-size: 14px;
+}
+
+img {
+  width: 229px;
+  height: 230px;
+}
+
+#profile-name {
+  font-size: 26px;
+}
+
+#profile-username {
+  font-size: 20px;
+}
+
+#profile-location {
+  font-size: 14px;
+}
+
+#status {
+  font-size: 12px;
+}
+
+.repo-name {
+  font-size: 20px;
+}
+
+.star {
+  height: 28px;
+  width: 64px;
+  float: right;
+  margin-top: -72px;
+}
+
+#repo-description {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 12px;
+}
+
+#language {
+  margin-right: 37px;
 }

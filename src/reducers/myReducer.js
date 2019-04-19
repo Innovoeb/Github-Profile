@@ -1,3 +1,4 @@
+// application's initial state
 const initialState = {
   profileImage: "",
     profileName: "",
