@@ -39,6 +39,19 @@ class App extends Component {
           <ProfileInfo />
 
           <div id="footer">
+            <p>2019 GitHub, Inc.</p>
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Security</p>
+            <p>Status</p>
+            <p>Help</p>
+            <FontAwesomeIcon id="giticon-bottom" icon={faGithubSquare} />
+            <p>Contact GitHub</p>
+            <p>Pricing</p>
+            <p>API</p>
+            <p>Training</p>
+            <p>Blog</p>
+            <p>About</p>
           </div>
 
       </Provider>

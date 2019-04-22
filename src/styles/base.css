@@ -43,12 +43,12 @@ body {
 
 #footer {
   height: 75px;
-  border-top: solid 2px grey;
   position: relative;
   top: 67px;
   width: 980px;
   left: 450px;
-  border: dotted grey;
+  display: flex;
+  justify-content: space-around;
 }
 
 #profile-image{
@@ -110,6 +110,9 @@ body {
 #new {
   height: 34px;
   width: 71px;
+  background-color: rgb(43, 189, 73);
+  color: white;
+  font-weight: 900
 }
 
 #center-me {
@@ -209,6 +212,7 @@ img {
   width: 64px;
   float: right;
   margin-top: -72px;
+  font-weight: 800;
 }
 
 #repo-description {
@@ -219,4 +223,10 @@ img {
 
 #language {
   margin-right: 37px;
+}
+
+#giticon-bottom {
+  margin-top: 17px;
+  font-size: 33px;
+  color: grey;
 }
